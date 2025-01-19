@@ -1,0 +1,95 @@
+/* General body styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: url("file:///C:/Users/anasd/Desktop/Personal Fun Factor Generator/image.jpg") no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #333;
+}
+
+
+/* Main container styling */
+.container {
+    background: #fff;
+    border-radius: 15px;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 8px 30px rgba(50, 141, 194, 0.15);
+    width: 90%;
+    max-width: 400px;
+}
+
+/* Heading styling */
+h1 {
+    color: #270a76;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+/* Button styling */
+button {
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn-main {
+    background-color: #2696d7;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.btn-main:hover {
+    background-color: #1f3ca3;
+}
+
+.btn-secondary {
+    background-color: #f8b195;
+    color: #2926d7;
+    margin: 5px;
+}
+
+.btn-secondary:hover {
+    background-color: #72d9f6;
+    color: #1f49a3;
+}
+
+/* Input styling */
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #3e32da;
+    border-radius: 8px;
+    width: 100%;
+    margin: 10px 0;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+    border-color: #1f2aa3;
+}
+
+/* Fun fact text styling */
+#fun-fact {
+    font-size: 18px;
+    color: #62a3f8;
+    margin-top: 20px;
+}
+
+/* Footer styling */
+footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #191d9e;
+    text-align: center;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+}
